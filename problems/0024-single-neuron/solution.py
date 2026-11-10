@@ -20,15 +20,11 @@ def single_neuron_model(features: list[list[float]], labels: list[int], weights:
     # - torch.nn.functional.mse_loss() for MSE
 
     features = torch.tensor(features, dtype=torch.float32)
-    print(features.shape)
     labels = torch.tensor(labels, dtype=torch.float32)
-    print(labels.shape)
     weights = torch.tensor(weights, dtype=torch.float32)
-    print(weights.shape)
     
     mul = features @ weights + bias
     sig = torch.sigmoid(mul)
-    print(f'sig = {sig}')
 
     pred = (sig > 0.5).to(torch.float32)
 
