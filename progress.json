@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:51:28.571Z",
+  "generated_at": "2026-11-17T14:55:46.280Z",
   "items": {
     "problem:22": {
       "kind": "problem",
@@ -101,9 +101,9 @@
       "url": "https://www.deep-ml.com/problems/44",
       "path": "problems/0044-leaky-relu-activation-function",
       "first_solved_at": "2026-11-17T14:51:27.718Z",
-      "last_pushed_at": "2026-11-17T14:51:27.718Z",
+      "last_pushed_at": "2026-11-17T14:55:45.504Z",
       "language": "python",
-      "lines": 17
+      "lines": 15
     }
   }
 }
